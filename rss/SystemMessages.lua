@@ -11,8 +11,7 @@ local function SendMessage(msg, color)
 	game.ReplicatedStorage.SystemMessage:FireAllClients(msg, color)
 end
 
-wait(5)
-print("-")
+wait()
 while true do
 	SendMessage("[TIP]: Subscribe to Roblox Studio Simplified", Color3.fromRGB(255,0,0))
 	wait(60)
