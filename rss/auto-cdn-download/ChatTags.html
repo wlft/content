@@ -15,11 +15,13 @@
         a {font-family: 'Source Code Pro', monospace; color: #FFF; text-decoration: none; text-align: center;}
     </style>
     <body>
-        <a id="download" href="//cdn.wolfite.net/rss/ChatTags.lua" download="ChatTags.lua">Downloading your file.<br>Click here if it doesn't download.</a>
+        <a id="download" href="//cdn.wolfite.net/rss/ChatTags.lua" download="ChatTags.lua">Downloading...</a>
         <script>
             (function download() {
                 document.getElementById('download').click();
             })()
+
+            window.location.replace("//wolfite.net/rss/ChatTags");
             </script>
     </body>
 </html>
